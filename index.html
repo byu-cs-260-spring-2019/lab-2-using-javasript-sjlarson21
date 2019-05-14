@@ -7,7 +7,27 @@
   </head>
   <body>
     
-    <h1>Lab 2</h1>
+  <div class="background">
+    <div class="transbox">
+      <h1 class="header">QUICK WEATHER</h1>
+      
+      <form class="inputform">
+        <label>ENTER A U.S. CITY </label>
+        <br>
+        <input id="weatherInput" type="text"></input>
+        
+        <input id="weatherSubmit" type="submit"></input>
+      </form>
+      <br><br>
+      <div id="weatherResults"></div>
+      <br><br>
+      <div id="forecastResults"></div>
+
+      <div class ="footer">
+        <a href="https://github.com/byu-cs-260-spring-2019/lab-2-using-javasript-sjlarson21">GITHUB</a>
+      </div>
+    </div>
+  </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script text="type/javascript" src="./script.js">

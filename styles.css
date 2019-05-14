@@ -1,0 +1,39 @@
+.background {
+    min-height: 100%;
+    background-image:url(images/clouds.jpg);
+    background-repeat: repeat-y;
+}
+
+.header {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.transbox {
+    margin: 150px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.inputform {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#weatherResults {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#forecastResults {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
